@@ -1,0 +1,16 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\sdl2\SDL2-devel-2.30.5-VC\SDL2-2.30.5\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\sdl2\SDL2-devel-2.30.5-VC\SDL2-2.30.5\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Thang\Môn học\Lập trình nâng cao\Game\Magic\Debug\Magic.exe : fatal error LNK1120: 12 unresolved externals
